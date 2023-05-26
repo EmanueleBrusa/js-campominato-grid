@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+/*header*/
+header , footer{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: .5rem;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+input{
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+}
+/*main*/
+main{
+    background-color: #7fffd4;
+    height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.griglia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.griglia_lv_one{
+    max-width: 700px;
+}
+
+.cella{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.colorato{
+    background-color: rgb(78, 157, 255);
+}
